@@ -4,7 +4,7 @@ A small, lightweight PHP client for verifying captcha tokens against Enzonix's v
 
 ## Installation
 
-Require the package with Composer (after publishing to Packagist) or include locally:
+Require the package with Composer:
 
 ```bash
 composer require enzonix/captcha
