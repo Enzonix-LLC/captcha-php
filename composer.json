@@ -1,0 +1,19 @@
+{
+  "name": "enzonix/captcha",
+  "description": "Enzonix captcha verification client",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": { "Enzonix\\Captcha\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Enzonix\\Captcha\\Tests\\": "tests/" }
+  },
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
+}
